@@ -22,6 +22,20 @@ public class TestGreeter {
       assertEquals(g.getName(),"");
       assertEquals(g.sayHello(),"Hello!");
    }
+
+   @Test
+   public void newtestJCWGreeterPass()
+   {
+      g.setName("JCWTest");
+      assertEquals(g.getName(), "JCWTest");//Should succeed.
+   }
+
+   @Test
+   public void newtestJCWGreeterFail()
+   {
+      g.setName("failure");
+      assertEquals(g.getName(), "JCWTest");//Should fail.
+   }
 	
    @Test
    public void testGreeter() 
