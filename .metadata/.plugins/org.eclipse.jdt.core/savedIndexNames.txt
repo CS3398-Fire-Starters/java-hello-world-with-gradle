@@ -1,0 +1,2 @@
+INDEX VERSION 1.129+C:\Users\PAVS INC\Documents\GitHub\java-hello-world-with-gradle\.metadata\.plugins\org.eclipse.jdt.core
+2380175872.index
