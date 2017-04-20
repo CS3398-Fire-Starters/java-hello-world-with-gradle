@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.TestGreeter" tests="4" skipped="0" failures="1" errors="0" timestamp="2017-04-19T23:05:42" hostname="turtleBobcat" time="0.026">
+<testsuite name="hello.TestGreeter" tests="4" skipped="0" failures="1" errors="0" timestamp="2017-04-20T18:47:45" hostname="FragRAMZ-PC" time="0.004">
   <properties/>
-  <testcase name="newtestJCWGreeterFail" classname="hello.TestGreeter" time="0.02">
+  <testcase name="newtestJCWGreeterFail" classname="hello.TestGreeter" time="0.003">
     <failure message="org.junit.ComparisonFailure: expected:&lt;[failure]&gt; but was:&lt;[JCWTest]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[failure]&gt; but was:&lt;[JCWTest]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
@@ -52,9 +52,9 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="newtestJCWGreeterPass" classname="hello.TestGreeter" time="0.001"/>
+  <testcase name="newtestJCWGreeterPass" classname="hello.TestGreeter" time="0.0"/>
   <testcase name="testGreeter" classname="hello.TestGreeter" time="0.0"/>
-  <testcase name="testGreeterEmpty" classname="hello.TestGreeter" time="0.0"/>
+  <testcase name="testGreeterEmpty" classname="hello.TestGreeter" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
