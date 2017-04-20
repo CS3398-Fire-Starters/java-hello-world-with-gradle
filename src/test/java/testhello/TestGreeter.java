@@ -30,7 +30,12 @@ public class TestGreeter {
       assertEquals(g.getName(), "JCWTest");//Should succeed.
    }
 
- 
+   @Test
+   public void newtestJCWGreeterFail()
+   {
+      g.setName("failure");
+      assertEquals(g.getName(), "JCWTest");//Should fail.
+   }
 	
    @Test
    public void testGreeter() 
