@@ -22,6 +22,21 @@ public class TestGreeter {
       assertEquals(g.getName(),"");
       assertEquals(g.sayHello(),"Hello!");
    }
+
+   @Test
+   public void newtestTQBGreeterPass()
+   {
+      g.setName("TQBTestSuccess");
+      assertEquals(g.getName(), "TQBTestSuccess"); // Success
+   }
+
+   
+   /*@Test
+   public void newtestTQBGreeterFail()
+   {
+      g.setName("failure");
+      assertEquals(g.getName(), "TQBTestFailure"); // Failure
+   }*/
 	
    @Test
    public void testGreeter() 
