@@ -31,12 +31,12 @@ public class TestGreeter {
    }
 
    
-   /*@Test
+   @Test
    public void newtestTQBGreeterFail()
    {
       g.setName("failure");
       assertEquals(g.getName(), "TQBTestFailure"); // Failure
-   }*/
+   }
 	
    @Test
    public void testGreeter() 
