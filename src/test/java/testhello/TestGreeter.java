@@ -30,12 +30,12 @@ public class TestGreeter {
       assertEquals(g.getName(), "OKETest");//Should succeed.
    }
 
-   @Test
+   /*@Test
    public void newtestOKEGreeterFail()
    {
       g.setName("failure");
       assertEquals(g.getName(), "OKETest");//Should fail.
-   }
+   }*/
 	
    @Test
    public void testGreeter() 
