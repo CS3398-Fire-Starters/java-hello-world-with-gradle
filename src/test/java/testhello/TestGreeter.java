@@ -45,7 +45,3 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello World!");
    }
 }
-      assertEquals(g.getName(),"World");
-      assertEquals(g.sayHello(),"Hello World!");
-   }
-}
